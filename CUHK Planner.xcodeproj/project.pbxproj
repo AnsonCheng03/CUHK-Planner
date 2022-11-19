@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169EFADC292937CD003ED730 /* CUHK_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */; };
+		169EFADE292937CD003ED730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFADD292937CD003ED730 /* ContentView.swift */; };
+		169EFAE0292937CE003ED730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169EFADF292937CE003ED730 /* Assets.xcassets */; };
+		169EFAE3292937CE003ED730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169EFAE2292937CE003ED730 /* Preview Assets.xcassets */; };
+		169EFAED292937CE003ED730 /* CUHK_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAEC292937CE003ED730 /* CUHK_PlannerTests.swift */; };
+		169EFAF7292937CE003ED730 /* CUHK_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAF6292937CE003ED730 /* CUHK_PlannerUITests.swift */; };
+		169EFAF9292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAF8292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169EFAE9292937CE003ED730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169EFAD0292937CD003ED730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169EFAD7292937CD003ED730;
+			remoteInfo = "CUHK Planner";
+		};
+		169EFAF3292937CE003ED730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169EFAD0292937CD003ED730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169EFAD7292937CD003ED730;
+			remoteInfo = "CUHK Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169EFAD8292937CD003ED730 /* CUHK Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CUHK Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerApp.swift; sourceTree = "<group>"; };
+		169EFADD292937CD003ED730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		169EFADF292937CE003ED730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169EFAE2292937CE003ED730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		169EFAE8292937CE003ED730 /* CUHK PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CUHK PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169EFAEC292937CE003ED730 /* CUHK_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerTests.swift; sourceTree = "<group>"; };
+		169EFAF2292937CE003ED730 /* CUHK PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CUHK PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169EFAF6292937CE003ED730 /* CUHK_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerUITests.swift; sourceTree = "<group>"; };
+		169EFAF8292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169EFAD5292937CD003ED730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAE5292937CE003ED730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAEF292937CE003ED730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169EFACF292937CD003ED730 = {
+			isa = PBXGroup;
+			children = (
+				169EFADA292937CD003ED730 /* CUHK Planner */,
+				169EFAEB292937CE003ED730 /* CUHK PlannerTests */,
+				169EFAF5292937CE003ED730 /* CUHK PlannerUITests */,
+				169EFAD9292937CD003ED730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169EFAD9292937CD003ED730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169EFAD8292937CD003ED730 /* CUHK Planner.app */,
+				169EFAE8292937CE003ED730 /* CUHK PlannerTests.xctest */,
+				169EFAF2292937CE003ED730 /* CUHK PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169EFADA292937CD003ED730 /* CUHK Planner */ = {
+			isa = PBXGroup;
+			children = (
+				169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */,
+				169EFADD292937CD003ED730 /* ContentView.swift */,
+				169EFADF292937CE003ED730 /* Assets.xcassets */,
+				169EFAE1292937CE003ED730 /* Preview Content */,
+			);
+			path = "CUHK Planner";
+			sourceTree = "<group>";
+		};
+		169EFAE1292937CE003ED730 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				169EFAE2292937CE003ED730 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		169EFAEB292937CE003ED730 /* CUHK PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				169EFAEC292937CE003ED730 /* CUHK_PlannerTests.swift */,
+			);
+			path = "CUHK PlannerTests";
+			sourceTree = "<group>";
+		};
+		169EFAF5292937CE003ED730 /* CUHK PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169EFAF6292937CE003ED730 /* CUHK_PlannerUITests.swift */,
+				169EFAF8292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift */,
+			);
+			path = "CUHK PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169EFAD7292937CD003ED730 /* CUHK Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169EFAFC292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK Planner" */;
+			buildPhases = (
+				169EFAD4292937CD003ED730 /* Sources */,
+				169EFAD5292937CD003ED730 /* Frameworks */,
+				169EFAD6292937CD003ED730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CUHK Planner";
+			productName = "CUHK Planner";
+			productReference = 169EFAD8292937CD003ED730 /* CUHK Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169EFAE7292937CE003ED730 /* CUHK PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169EFAFF292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK PlannerTests" */;
+			buildPhases = (
+				169EFAE4292937CE003ED730 /* Sources */,
+				169EFAE5292937CE003ED730 /* Frameworks */,
+				169EFAE6292937CE003ED730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169EFAEA292937CE003ED730 /* PBXTargetDependency */,
+			);
+			name = "CUHK PlannerTests";
+			productName = "CUHK PlannerTests";
+			productReference = 169EFAE8292937CE003ED730 /* CUHK PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169EFAF1292937CE003ED730 /* CUHK PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169EFB02292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK PlannerUITests" */;
+			buildPhases = (
+				169EFAEE292937CE003ED730 /* Sources */,
+				169EFAEF292937CE003ED730 /* Frameworks */,
+				169EFAF0292937CE003ED730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169EFAF4292937CE003ED730 /* PBXTargetDependency */,
+			);
+			name = "CUHK PlannerUITests";
+			productName = "CUHK PlannerUITests";
+			productReference = 169EFAF2292937CE003ED730 /* CUHK PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169EFAD0292937CD003ED730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					169EFAD7292937CD003ED730 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					169EFAE7292937CE003ED730 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 169EFAD7292937CD003ED730;
+					};
+					169EFAF1292937CE003ED730 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 169EFAD7292937CD003ED730;
+					};
+				};
+			};
+			buildConfigurationList = 169EFAD3292937CD003ED730 /* Build configuration list for PBXProject "CUHK Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169EFACF292937CD003ED730;
+			productRefGroup = 169EFAD9292937CD003ED730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169EFAD7292937CD003ED730 /* CUHK Planner */,
+				169EFAE7292937CE003ED730 /* CUHK PlannerTests */,
+				169EFAF1292937CE003ED730 /* CUHK PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169EFAD6292937CD003ED730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169EFAE3292937CE003ED730 /* Preview Assets.xcassets in Resources */,
+				169EFAE0292937CE003ED730 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAE6292937CE003ED730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAF0292937CE003ED730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169EFAD4292937CD003ED730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169EFADE292937CD003ED730 /* ContentView.swift in Sources */,
+				169EFADC292937CD003ED730 /* CUHK_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAE4292937CE003ED730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169EFAED292937CE003ED730 /* CUHK_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EFAEE292937CE003ED730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169EFAF9292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift in Sources */,
+				169EFAF7292937CE003ED730 /* CUHK_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169EFAEA292937CE003ED730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169EFAD7292937CD003ED730 /* CUHK Planner */;
+			targetProxy = 169EFAE9292937CE003ED730 /* PBXContainerItemProxy */;
+		};
+		169EFAF4292937CE003ED730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169EFAD7292937CD003ED730 /* CUHK Planner */;
+			targetProxy = 169EFAF3292937CE003ED730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		169EFAFA292937CE003ED730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169EFAFB292937CE003ED730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169EFAFD292937CE003ED730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CUHK Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		169EFAFE292937CE003ED730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CUHK Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		169EFB00292937CE003ED730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUHK Planner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CUHK Planner";
+			};
+			name = Debug;
+		};
+		169EFB01292937CE003ED730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CUHK Planner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CUHK Planner";
+			};
+			name = Release;
+		};
+		169EFB03292937CE003ED730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CUHK Planner";
+			};
+			name = Debug;
+		};
+		169EFB04292937CE003ED730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEYWHSU86S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuhkhelper.CUHK-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CUHK Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169EFAD3292937CD003ED730 /* Build configuration list for PBXProject "CUHK Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169EFAFA292937CE003ED730 /* Debug */,
+				169EFAFB292937CE003ED730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169EFAFC292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169EFAFD292937CE003ED730 /* Debug */,
+				169EFAFE292937CE003ED730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169EFAFF292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169EFB00292937CE003ED730 /* Debug */,
+				169EFB01292937CE003ED730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169EFB02292937CE003ED730 /* Build configuration list for PBXNativeTarget "CUHK PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169EFB03292937CE003ED730 /* Debug */,
+				169EFB04292937CE003ED730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169EFAD0292937CD003ED730 /* Project object */;
+}
