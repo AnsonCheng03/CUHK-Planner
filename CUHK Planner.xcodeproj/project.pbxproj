@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16550ACF2929A41500BDF9FA /* SWXMLHash in Frameworks */ = {isa = PBXBuildFile; productRef = 16550ACE2929A41500BDF9FA /* SWXMLHash */; };
+		1660169A292966A8008C0122 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1660169C292966A8008C0122 /* Localizable.strings */; };
 		169EFADC292937CD003ED730 /* CUHK_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */; };
 		169EFADE292937CD003ED730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFADD292937CD003ED730 /* ContentView.swift */; };
 		169EFAE0292937CE003ED730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169EFADF292937CE003ED730 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		169EFAED292937CE003ED730 /* CUHK_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAEC292937CE003ED730 /* CUHK_PlannerTests.swift */; };
 		169EFAF7292937CE003ED730 /* CUHK_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAF6292937CE003ED730 /* CUHK_PlannerUITests.swift */; };
 		169EFAF9292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169EFAF8292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift */; };
+		16BFF9C2292A97B500ED1BE6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BFF9C1292A97B500ED1BE6 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1660169B292966A8008C0122 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1660169D292966D5008C0122 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1660169E292966D8008C0122 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		169EFAD8292937CD003ED730 /* CUHK Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CUHK Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerApp.swift; sourceTree = "<group>"; };
 		169EFADD292937CD003ED730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 		169EFAF2292937CE003ED730 /* CUHK PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CUHK PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169EFAF6292937CE003ED730 /* CUHK_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerUITests.swift; sourceTree = "<group>"; };
 		169EFAF8292937CE003ED730 /* CUHK_PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUHK_PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16BFF9C1292A97B500ED1BE6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16550ACF2929A41500BDF9FA /* SWXMLHash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166016962929662E008C0122 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				1660169729296649008C0122 /* Localization */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		1660169729296649008C0122 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1660169C292966A8008C0122 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		169EFACF292937CD003ED730 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +120,8 @@
 			children = (
 				169EFADB292937CD003ED730 /* CUHK_PlannerApp.swift */,
 				169EFADD292937CD003ED730 /* ContentView.swift */,
+				16BFF9C1292A97B500ED1BE6 /* Main.swift */,
+				166016962929662E008C0122 /* Utilites */,
 				169EFADF292937CE003ED730 /* Assets.xcassets */,
 				169EFAE1292937CE003ED730 /* Preview Content */,
 			);
@@ -143,6 +169,9 @@
 			dependencies = (
 			);
 			name = "CUHK Planner";
+			packageProductDependencies = (
+				16550ACE2929A41500BDF9FA /* SWXMLHash */,
+			);
 			productName = "CUHK Planner";
 			productReference = 169EFAD8292937CD003ED730 /* CUHK Planner.app */;
 			productType = "com.apple.product-type.application";
@@ -213,8 +242,14 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-HK",
+				"zh-Hant",
+				"zh-Hant-TW",
 			);
 			mainGroup = 169EFACF292937CD003ED730;
+			packageReferences = (
+				16550ACD2929A41500BDF9FA /* XCRemoteSwiftPackageReference "SWXMLHash" */,
+			);
 			productRefGroup = 169EFAD9292937CD003ED730 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				169EFAE3292937CE003ED730 /* Preview Assets.xcassets in Resources */,
+				1660169A292966A8008C0122 /* Localizable.strings in Resources */,
 				169EFAE0292937CE003ED730 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BFF9C2292A97B500ED1BE6 /* Main.swift in Sources */,
 				169EFADE292937CD003ED730 /* ContentView.swift in Sources */,
 				169EFADC292937CD003ED730 /* CUHK_PlannerApp.swift in Sources */,
 			);
@@ -293,6 +330,19 @@
 			targetProxy = 169EFAF3292937CE003ED730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1660169C292966A8008C0122 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1660169B292966A8008C0122 /* zh-HK */,
+				1660169D292966D5008C0122 /* zh-Hant */,
+				1660169E292966D8008C0122 /* zh-Hant-TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		169EFAFA292937CE003ED730 /* Debug */ = {
@@ -583,6 +633,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16550ACD2929A41500BDF9FA /* XCRemoteSwiftPackageReference "SWXMLHash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drmohundro/SWXMLHash.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16550ACE2929A41500BDF9FA /* SWXMLHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16550ACD2929A41500BDF9FA /* XCRemoteSwiftPackageReference "SWXMLHash" */;
+			productName = SWXMLHash;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 169EFAD0292937CD003ED730 /* Project object */;
 }

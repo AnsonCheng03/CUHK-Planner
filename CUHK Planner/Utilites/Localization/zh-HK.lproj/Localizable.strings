@@ -1,0 +1,7 @@
+//Login
+"Login" = "登入";
+"Password" = "密碼";
+"Use without login" = "不登入，直接使用";
+"You have to login in order to get the datas from CUSIS" = "你需要登入才可以取得CUSIS時間表等資";
+"Continue" = "繼續";
+"Cancel" = " 取消";
